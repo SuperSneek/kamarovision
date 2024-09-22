@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000586] (luna_description) JobQueued: {'identifier': 'luna_description', 'dependencies': OrderedDict()}
+[0.000632] (luna_description) JobStarted: {'identifier': 'luna_description'}
+[0.099744] (-) TimerEvent: {}
+[0.200035] (-) TimerEvent: {}
+[0.300366] (-) TimerEvent: {}
+[0.400701] (-) TimerEvent: {}
+[0.501074] (-) TimerEvent: {}
+[0.601363] (-) TimerEvent: {}
+[0.701595] (-) TimerEvent: {}
+[0.802123] (-) TimerEvent: {}
+[0.902482] (-) TimerEvent: {}
+[1.002753] (-) TimerEvent: {}
+[1.103035] (-) TimerEvent: {}
+[1.203309] (-) TimerEvent: {}
+[1.303644] (-) TimerEvent: {}
+[1.403967] (-) TimerEvent: {}
+[1.504277] (-) TimerEvent: {}
+[1.604567] (-) TimerEvent: {}
+[1.704898] (-) TimerEvent: {}
+[1.805164] (-) TimerEvent: {}
+[1.905449] (-) TimerEvent: {}
+[2.005814] (-) TimerEvent: {}
+[2.106081] (-) TimerEvent: {}
+[2.206345] (-) TimerEvent: {}
+[2.306632] (-) TimerEvent: {}
+[2.406911] (-) TimerEvent: {}
+[2.507185] (-) TimerEvent: {}
+[2.607460] (-) TimerEvent: {}
+[2.707690] (-) TimerEvent: {}
+[2.807925] (-) TimerEvent: {}
+[2.908250] (-) TimerEvent: {}
+[3.008560] (-) TimerEvent: {}
+[3.108925] (-) TimerEvent: {}
+[3.209263] (-) TimerEvent: {}
+[3.309507] (-) TimerEvent: {}
+[3.409747] (-) TimerEvent: {}
+[3.510043] (-) TimerEvent: {}
+[3.610307] (-) TimerEvent: {}
+[3.710561] (-) TimerEvent: {}
+[3.810902] (-) TimerEvent: {}
+[3.911162] (-) TimerEvent: {}
+[4.011431] (-) TimerEvent: {}
+[4.111728] (-) TimerEvent: {}
+[4.212001] (-) TimerEvent: {}
+[4.312301] (-) TimerEvent: {}
+[4.412566] (-) TimerEvent: {}
+[4.512899] (-) TimerEvent: {}
+[4.613224] (-) TimerEvent: {}
+[4.713528] (-) TimerEvent: {}
+[4.813804] (-) TimerEvent: {}
+[4.914121] (-) TimerEvent: {}
+[5.012859] (luna_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/luna_description', 'build', '--build-base', '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build', 'install', '--record', '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/src/luna_description', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'ISAACSIM_PYTHON_EXE': '/home/jonas/.local/share/ov/pkg/isaac_sim-2023.1.1/python.sh', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'CONDA_PROMPT_MODIFIER': '(orbit)', 'PYTHONIOENCODING': 'utf-8', 'CARB_APP_PATH': '/home/jonas/Nvidia/orbit/_isaac_sim/kit', 'USER': 'jonas', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'ISAACSIM_PATH': '/home/jonas/.local/share/ov/pkg/isaac_sim-2023.1.1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib::/home/jonas/Nvidia/orbit/_isaac_sim/../../../:/home/jonas/Nvidia/orbit/_isaac_sim/.:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.usd.schema.isaac/plugins/IsaacSensorSchema/lib:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.usd.schema.isaac/plugins/RangeSensorSchema/lib:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.isaac.lula/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.exporter.urdf/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/kit:/home/jonas/Nvidia/orbit/_isaac_sim/kit/kernel/plugins:/home/jonas/Nvidia/orbit/_isaac_sim/kit/libs/iray:/home/jonas/Nvidia/orbit/_isaac_sim/kit/plugins:/home/jonas/Nvidia/orbit/_isaac_sim/kit/plugins/bindings-python:/home/jonas/Nvidia/orbit/_isaac_sim/kit/plugins/carb_gfx:/home/jonas/Nvidia/orbit/_isaac_sim/kit/plugins/rtx:/home/jonas/Nvidia/orbit/_isaac_sim/kit/plugins/gpu.foundation', 'HOME': '/home/jonas', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'CONDA_SHLVL': '1', 'ISAAC_PATH': '/home/jonas/Nvidia/orbit/_isaac_sim', 'OLDPWD': '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/src', 'TERM_PROGRAM_VERSION': '1.92.2', 'DESKTOP_SESSION': 'ubuntu', 'PYTHONUNBUFFERED': '1', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\](orbit) (base) \\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '2443', 'SYSTEMD_EXEC_PID': '2858', 'RESOURCE_NAME': 'IsaacSim', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '8247', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'jonas', 'ORBIT_PATH': '/home/jonas/Nvidia/orbit', 'JOURNAL_STREAM': '8:16270', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'jonas', 'TERM': 'xterm-256color', 'COPPELIASIM_ROOT_DIR': '/home/jonas/Programs/CoppeliaSim', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/home/jonas/miniconda3/envs/orbit/bin:/home/jonas/miniconda3/condabin:/home/jonas/miniconda3/bin:/home/jonas/miniconda3/condabin:/home/jonas/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/jonas/.local/bin', 'SESSION_MANAGER': 'local/jonas-MS-7B86:@/tmp/.ICE-unix/2817,unix/jonas-MS-7B86:/tmp/.ICE-unix/2817', 'EXP_PATH': '/home/jonas/Nvidia/orbit/_isaac_sim/apps', 'INVOCATION_ID': '4ae778a28af040b599f9bad9dc18c4e6', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'PYTHONSTARTUP': '/home/jonas/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/pythonrc.py', 'CONDA_PREFIX_1': '/home/jonas/miniconda3/envs/orbit', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-b84824f5e4.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/jonas/miniconda3/bin/python', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'CONDA_DEFAULT_ENV': 'orbit', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/jonas/miniconda3/bin/conda', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/home/jonas/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages::/home/jonas/Nvidia/orbit/_isaac_sim/../../../:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.isaac.kit:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.isaac.gym:/home/jonas/Nvidia/orbit/_isaac_sim/kit/kernel/py:/home/jonas/Nvidia/orbit/_isaac_sim/kit/plugins/bindings-python:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.isaac.lula/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.exporter.urdf/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/kit/exts/omni.kit.pip_archive/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.isaac.core_archive/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.isaac.ml_archive/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.pip.compute/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/exts/omni.pip.cloud/pip_prebundle:/home/jonas/Nvidia/orbit/_isaac_sim/extscache/omni.pip.torch-2_0_1-2.0.2+105.1.lx64/torch-2-0-1:/home/jonas/Nvidia/orbit/_isaac_sim/kit/python/lib/python3.10/site-packages', 'CONDA_PREFIX': '/home/jonas/miniconda3/envs/orbit', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.014190] (-) TimerEvent: {}
+[5.114391] (-) TimerEvent: {}
+[5.214737] (-) TimerEvent: {}
+[5.315181] (-) TimerEvent: {}
+[5.359437] (luna_description) StdoutLine: {'line': b'running egg_info\n'}
+[5.359833] (luna_description) StdoutLine: {'line': b'creating ../../build/luna_description/luna_description.egg-info\n'}
+[5.382713] (luna_description) StdoutLine: {'line': b'writing ../../build/luna_description/luna_description.egg-info/PKG-INFO\n'}
+[5.383067] (luna_description) StdoutLine: {'line': b'writing dependency_links to ../../build/luna_description/luna_description.egg-info/dependency_links.txt\n'}
+[5.383345] (luna_description) StdoutLine: {'line': b'writing requirements to ../../build/luna_description/luna_description.egg-info/requires.txt\n'}
+[5.383547] (luna_description) StdoutLine: {'line': b'writing top-level names to ../../build/luna_description/luna_description.egg-info/top_level.txt\n'}
+[5.383724] (luna_description) StdoutLine: {'line': b"writing manifest file '../../build/luna_description/luna_description.egg-info/SOURCES.txt'\n"}
+[5.415291] (-) TimerEvent: {}
+[5.515554] (-) TimerEvent: {}
+[5.615820] (-) TimerEvent: {}
+[5.716164] (-) TimerEvent: {}
+[5.816522] (-) TimerEvent: {}
+[5.916900] (-) TimerEvent: {}
+[6.017201] (-) TimerEvent: {}
+[6.117495] (-) TimerEvent: {}
+[6.217714] (-) TimerEvent: {}
+[6.224866] (luna_description) StdoutLine: {'line': b"reading manifest file '../../build/luna_description/luna_description.egg-info/SOURCES.txt'\n"}
+[6.225946] (luna_description) StdoutLine: {'line': b"writing manifest file '../../build/luna_description/luna_description.egg-info/SOURCES.txt'\n"}
+[6.226183] (luna_description) StdoutLine: {'line': b'running build\n'}
+[6.226399] (luna_description) StdoutLine: {'line': b'running build_py\n'}
+[6.226575] (luna_description) StdoutLine: {'line': b'creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build\n'}
+[6.226717] (luna_description) StdoutLine: {'line': b'creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build/lib\n'}
+[6.226942] (luna_description) StdoutLine: {'line': b'creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build/lib/luna_description\n'}
+[6.227086] (luna_description) StdoutLine: {'line': b'copying luna_description/__init__.py -> /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build/lib/luna_description\n'}
+[6.227275] (luna_description) StdoutLine: {'line': b'running install\n'}
+[6.237269] (luna_description) StdoutLine: {'line': b'running install_lib\n'}
+[6.262575] (luna_description) StdoutLine: {'line': b'creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages/luna_description\n'}
+[6.262856] (luna_description) StdoutLine: {'line': b'copying /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build/lib/luna_description/__init__.py -> /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages/luna_description\n'}
+[6.263291] (luna_description) StdoutLine: {'line': b'byte-compiling /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages/luna_description/__init__.py to __init__.cpython-312.pyc\n'}
+[6.263522] (luna_description) StdoutLine: {'line': b'running install_data\n'}
+[6.263739] (luna_description) StdoutLine: {'line': b'creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/ament_index\n'}
+[6.263907] (luna_description) StdoutLine: {'line': b'creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/ament_index/resource_index\n'}
+[6.264080] (luna_description) StdoutLine: {'line': b'creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/ament_index/resource_index/packages\n'}
+[6.264271] (luna_description) StdoutLine: {'line': b'copying resource/luna_description -> /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/ament_index/resource_index/packages\n'}
+[6.264384] (luna_description) StdoutLine: {'line': b'copying package.xml -> /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description\n'}
+[6.264489] (luna_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.287932] (luna_description) StdoutLine: {'line': b'Copying ../../build/luna_description/luna_description.egg-info to /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages/luna_description-0.0.0-py3.12.egg-info\n'}
+[6.288742] (luna_description) StdoutLine: {'line': b'running install_scripts\n'}
+[6.317805] (-) TimerEvent: {}
+[6.418101] (-) TimerEvent: {}
+[6.461413] (luna_description) StdoutLine: {'line': b"writing list of installed files to '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/install.log'\n"}
+[6.505791] (luna_description) CommandEnded: {'returncode': 0}
+[6.518177] (-) TimerEvent: {}
+[6.618388] (-) TimerEvent: {}
+[6.629206] (luna_description) JobEnded: {'identifier': 'luna_description', 'rc': 0}
+[6.629980] (-) EventReactorShutdown: {}

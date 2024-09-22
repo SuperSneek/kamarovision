@@ -1,0 +1,32 @@
+[0.746s] Invoking command in '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/src/luna_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/luna_description build --build-base /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build install --record /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/install.log --single-version-externally-managed install_data
+[0.983s] running egg_info
+[1.001s] writing ../../build/luna_description/luna_description.egg-info/PKG-INFO
+[1.001s] writing dependency_links to ../../build/luna_description/luna_description.egg-info/dependency_links.txt
+[1.001s] writing requirements to ../../build/luna_description/luna_description.egg-info/requires.txt
+[1.001s] writing top-level names to ../../build/luna_description/luna_description.egg-info/top_level.txt
+[1.040s] reading manifest file '../../build/luna_description/luna_description.egg-info/SOURCES.txt'
+[1.040s] writing manifest file '../../build/luna_description/luna_description.egg-info/SOURCES.txt'
+[1.041s] running build
+[1.041s] running build_py
+[1.041s] running install
+[1.047s] running install_lib
+[1.067s] running install_data
+[1.068s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/launch
+[1.068s] copying launch/display.launch.py -> /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/launch
+[1.068s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/resource
+[1.068s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/resource/xacro
+[1.068s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/resource/xacro/meshes
+[1.068s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/resource/xacro/collisions
+[1.069s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/resource/rviz
+[1.069s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/resource/urdf
+[1.069s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/config
+[1.069s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/meshes
+[1.069s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/meshes/3d_modelle
+[1.069s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/meshes/3d_modelle/Left_leg
+[1.069s] creating /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/share/luna_description/meshes/3d_modelle/Right_leg
+[1.070s] running install_egg_info
+[1.090s] removing '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages/luna_description-0.0.0-py3.12.egg-info' (and everything under it)
+[1.090s] Copying ../../build/luna_description/luna_description.egg-info to /home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages/luna_description-0.0.0-py3.12.egg-info
+[1.090s] running install_scripts
+[1.213s] writing list of installed files to '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/install.log'
+[1.239s] Invoked command in '/home/jonas/Documents/Kamaro/kamarovision/luna_ws/src/luna_description' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jonas/Documents/Kamaro/kamarovision/luna_ws/install/luna_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/luna_description build --build-base /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/build install --record /home/jonas/Documents/Kamaro/kamarovision/luna_ws/build/luna_description/install.log --single-version-externally-managed install_data

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="quadruped">
+
+  <!-- Constants for reuse -->
+  <xacro:property name="leg_length_upper" value="0.2"/>   <!-- 20cm upper leg -->
+  <xacro:property name="leg_length_lower" value="0.3"/>   <!-- 30cm lower leg -->
+  <xacro:property name="foot_size" value="0.1 0.05 0.02"/> <!-- 10cm x 5cm x 2cm foot -->
+  <xacro:property name="hip_mass" value="1.0"/>           <!-- Mass values -->
+  <xacro:property name="knee_mass" value="1.0"/>
+  <xacro:property name="foot_mass" value="0.5"/>
+  <xacro:property name="base_mass" value="7.0"/>          <!-- Base 7kg -->
+  <xacro:property name="leg_radius" value="0.03"/>        <!-- Leg thickness -->
+
+  <!-- Base link -->
+  <link name="base_link">
+    <inertial>
+      <origin xyz="0 0 0"/>
+      <mass value="${base_mass}"/>
+      <inertia ixx="0.1" ixy="0.0" ixz="0.0" iyy="0.1" iyz="0.0" izz="0.1"/>
+    </inertial>
+    <visual>
+      <geometry>
+        <box size="0.4 0.2 0.1"/> <!-- Base size: 40cm x 20cm x 10cm -->
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.4 0.2 0.1"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- Macro for the leg definition -->
+  <xacro:macro name="leg" params="prefix x y z">
+    <!-- Hip joint -->
+    <joint name="${prefix}_hip_joint" type="continuous">
+      <parent link="base_link"/>
+      <child link="${prefix}_upper_leg"/>
+      <origin xyz="${x} ${y} ${z}" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.57" upper="1.57" effort="20" velocity="2.0"/>
+    </joint>
+
+    <!-- Upper leg -->
+    <link name="${prefix}_upper_leg">
+      <inertial>
+        <origin xyz="0 0 -${leg_length_upper/2}"/>
+        <mass value="${hip_mass}"/>
+        <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      </inertial>
+      <visual>
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length_upper}"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length_upper}"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Knee joint -->
+    <joint name="${prefix}_knee_joint" type="continuous">
+      <parent link="${prefix}_upper_leg"/>
+      <child link="${prefix}_lower_leg"/>
+      <origin xyz="0 0 -${leg_length_upper}" rpy="0 0 0"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.57" upper="0" effort="20" velocity="2.0"/>
+    </joint>
+
+    <!-- Lower leg -->
+    <link name="${prefix}_lower_leg">
+      <inertial>
+        <origin xyz="0 0 -${leg_length_lower/2}"/>
+        <mass value="${knee_mass}"/>
+        <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      </inertial>
+      <visual>
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length_lower}"/>
+        </geometry>
+        <material name="grey"/>
+      </visual>
+      <collision>
+        <geometry>
+          <cylinder radius="${leg_radius}" length="${leg_length_lower}"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- Ankle joint -->
+    <joint name="${prefix}_ankle_joint" type="continuous">
+      <parent link="${prefix}_lower_leg"/>
+      <child link="${prefix}_foot"/>
+      <origin xyz="0 0 -${leg_length_lower}" rpy="0 0 0"/>
+      <axis xyz="1 0 0"/>
+      <limit lower="-0.785" upper="0.785" effort="20" velocity="2.0"/>
+    </joint>
+
+    <!-- Foot -->
+    <link name="${prefix}_foot">
+      <inertial>
+        <origin xyz="0 0 -0.05"/>
+        <mass value="${foot_mass}"/>
+        <inertia ixx="0.01" ixy="0.0" ixz="0.0" iyy="0.01" iyz="0.0" izz="0.01"/>
+      </inertial>
+      <visual>
+        <geometry>
+          <box size="${foot_size}"/>
+        </geometry>
+        <material name="black"/>
+      </visual>
+      <collision>
+        <geometry>
+          <box size="${foot_size}"/>
+        </geometry>
+      </collision>
+    </link>
+  </xacro:macro>
+
+  <!-- Define the four legs -->
+  <!-- Front Left Leg -->
+  <xacro:leg prefix="FL" x="0.2" y="0.1" z="0"/>
+
+  <!-- Front Right Leg -->
+  <xacro:leg prefix="FR" x="0.2" y="-0.1" z="0"/>
+
+  <!-- Back Left Leg -->
+  <xacro:leg prefix="BL" x="-0.2" y="0.1" z="0"/>
+
+  <!-- Back Right Leg -->
+  <xacro:leg prefix="BR" x="-0.2" y="-0.1" z="0"/>
+
+</robot>
